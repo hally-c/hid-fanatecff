@@ -1,5 +1,5 @@
 KVERSION ?= `uname -r`
-KERNEL_SRC ?= /lib/modules/${KVERSION}/build
+KERNEL_SRC ?= /lib/modules/${KVERSION}/build/
 MODULEDIR ?= /lib/modules/${KVERSION}/kernel/drivers/hid
 
 default:
